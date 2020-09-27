@@ -20,3 +20,5 @@
 ## service-consumer-demo 服务消费者
 
 该服务为服务消费者，依赖子项目的api和client，通过openFeign进行远程调用。
+
+### 该项目的配置中心也可集成到eureka中，实现配置中心的极致高可用（eureka特性）
