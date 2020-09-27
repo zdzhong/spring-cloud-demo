@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: zdz-ordersystem
+  cloud:
+    config:
+      label: master
+      profile: ${PREFIX:}
+      uri: http://localhost:8888
