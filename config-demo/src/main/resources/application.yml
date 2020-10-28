@@ -13,3 +13,8 @@ spring:
       #          username:
       #          password:
       label: master
+
+eureka:
+  client:
+    service-url:
+      defalutZone: http://localhost:8761

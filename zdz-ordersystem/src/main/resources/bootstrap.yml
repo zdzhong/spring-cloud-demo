@@ -5,4 +5,7 @@ spring:
     config:
       label: master
       profile: ${PREFIX:}
-      uri: http://localhost:8888
+#      uri: http://localhost:8888    将url替换为eureka
+      discovery:
+        enabled: true         #启用发现服务功能
+        service-id: config-server
